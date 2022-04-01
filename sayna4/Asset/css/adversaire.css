@@ -1,0 +1,110 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'regular';
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: "Typo";
+    src: url("../font/Far-From\ Homecoming.woff");
+}
+
+@font-face {
+    font-family: 'ralewayRegular';
+    src: url("../font/Raleway-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'semiBold';
+    src: url('../font/Raleway-SemiBold.ttf');
+}
+
+:root {
+    --red: #B11313;
+    --yellow: #F1C530;
+    --blue: #114C92;
+    --back: #000000;
+    --white: #ffffff;
+}
+
+header {
+    background-color: var(--yellow);
+    color: var(--white);
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--white);
+    font-family: 'semiBold';
+}
+
+header nav a:hover {
+    color: var(--white);
+}
+
+.sec-bigTitle {
+    background-image: url(../img/img7.png);
+    height: 100vh;
+}
+
+.sec-bigTitle h1 {
+    padding-left: 10%;
+    padding-top: 20%;
+    font-size: 90px;
+    font-family: 'Typo';
+    height: 10%;
+    color: var(--white);
+}
+
+.sec-bigTitle p {
+    margin-left: 10%;
+    font-family: 'medium';
+    font-size: 30px;
+    margin-top: 10%;
+    color: var(--white);
+}
+
+.sec-yellow {
+    background-color: var(--yellow);
+    padding: 8%;
+}
+
+
+/*FOOTER*/
+
+footer {
+    background-color: var(--back);
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+footer a:hover {
+    color: var(--white);
+}
+
+select {
+    background-color: var(--yellow);
+    color: var(--white);
+    border-radius: 15px;
+    padding-right: 8%;
+    padding-left: 2%;
+    height: 10%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+footer .img {
+    border-radius: 50px;
+    background-color: var(--yellow) !important;
+    padding: 0.5%;
+    margin-right: 1%;
+}
